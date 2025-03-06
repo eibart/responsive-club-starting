@@ -103,3 +103,22 @@ p {
         margin: auto;
         padding-bottom: 10px;
 }
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 700px) {
+    body {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .meetup-images, .review-images {
+      justify-content: center;
+      }
+    .meetup-images img {
+          padding-bottom: 35px;
+    }
+  .join img {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+  }
+  }
